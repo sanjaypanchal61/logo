@@ -1,0 +1,41 @@
+*{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#small{
+    border: 2px dotted yellow;
+    border-radius: 50%;
+    height: 50px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+}
+#inner{
+    border-radius: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid aqua;
+    height: 200px;
+    width: 200px;
+    border-radius: 45%;
+    transition: all ease-in-out 1s;
+}
+div:hover{
+    transform: rotate(380deg);
+}
